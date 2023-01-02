@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JavaScript Quiz</title>
+</head>
+
+<body>
+
+    <h1>Weather Forecast</h1>
+    <main class="container mb-8" id="">
+        <section class="row">
+            <div class ="col-md-15">
+                <div class="card text-center">
+                    <div class ="card-header">
+                        <h3>Enter A City:</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class = "input">
+                            <input type="text" class="inputValue" placeholder="Enter a City:">
+                            <button type="submit" value = "submit" class="button"></button>
+                        </div>
+                    <div id="current">
+                        <h1 id="city"></h1>
+                        <p id="date"></p>
+                        <p id="weatherType"></p>
+                        <p id="temp"></p>
+                        <p id="humidity"></p>
+                    </div>
+                    <div id ='1Away'>
+                        <h2>Tomorrow:</h2>
+                        <p id="date1"></p>
+                        <p id="temp1"></p>
+                        <p id="weatherType1"></p>
+                    </div>
+                    <div id ='2Away'>
+                        <h2>2 days away</h2>
+                        <p id="date2"></p>
+                        <p id="temp2"></p>
+                        <p id="weatherType2"></p>
+                    </div>
+                    <div id ='3Away'>
+                        <h2>3 days away</h2>
+                        <p id="date3"></p>
+                        <p id="temp3"></p>
+                        <p id="weatherType3"></p>
+                    </div>
+                    <div id ='4Away'>
+                        <h2>4 days away</h2>
+                        <p id="date4"></p>
+                        <p id="temp4"></p>
+                        <p id="weatherType4"></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src='./script.js'></script>
+</body>
+
+</html>
